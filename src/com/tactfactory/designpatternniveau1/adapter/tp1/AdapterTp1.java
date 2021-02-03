@@ -1,18 +1,19 @@
 package com.tactfactory.designpatternniveau1.adapter.tp1;
+
 /**
 *
 * @author tactfactory
 *
-* - Sans modifier le point d'entrÃ© de l'application mettre en place un design pattern "Adapter" afin d'avoir les
-*   Ã©lÃ©ments suivant :
-*   - 1 : Un AudioPlayer est par dÃ©faut seulement capable de jouer des fichiers .mp3 avec Ã§a fonction play()
-*   - 2 : Un Mp4Player doit Ãªtre capable de jouer des fichiers .mp4
-*   - 3 : Un VlcPlayer doit Ãªtre capable de jouer des fichiers .vlc
-*   - 4 : En modifiant la fonction play() dans AudioPlayer permettre, grÃ¢ce Ã  un design pattern Adapter, de lire des
+* - Sans modifier le point d'entré de l'application mettre en place un design pattern "Adapter" afin d'avoir les
+*   éléments suivant :
+*   - 1 : Un AudioPlayer est par défaut seulement capable de jouer des fichiers .mp3 avec ça fonction play()
+*   - 2 : Un Mp4Player doit être capable de jouer des fichiers .mp4
+*   - 3 : Un VlcPlayer doit être capable de jouer des fichiers .vlc
+*   - 4 : En modifiant la fonction play() dans AudioPlayer permettre, grâce à un design pattern Adapter, de lire des
 *       fichiers .mp4 et .vlc en plus des fichiers .mp3
-*   - 5 : On peut utiliser un design pattern "Factory" afin de rÃ©cupÃ©rer le bon type de player, Mp4Player ou VlcPlayer,
+*   - 5 : On peut utiliser un design pattern "Factory" afin de récupérer le bon type de player, Mp4Player ou VlcPlayer,
 *       pour notre AudioPlayer
-*   - 6 : Le lancement de l'application doit afficher les Ã©lÃ©ments suivant :
+*   - 6 : Le lancement de l'application doit afficher les éléments suivant :
 *
 *       Playing mp3 file. Name: beyond the horizon.mp3
 *       Playing mp4 file. Name: alone.mp4

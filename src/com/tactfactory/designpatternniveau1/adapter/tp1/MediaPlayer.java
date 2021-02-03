@@ -1,28 +1,7 @@
 package com.tactfactory.designpatternniveau1.adapter.tp1;
 
-public interface MediaPlayer extends TypeCreator {
+public interface MediaPlayer  {
 
-	static void play(String audioType, String fileName) {
-	}
-
-	static TypeCreator defineType(String type) {
-		    MediaPlayer result = null;
-
-		    switch (type) {
-		    case "mp4":
-		      result = new Mp4Player();
-		      break;
-		    case "vlc":
-			      result = new VlcPlayer();
-			      break;
-
-		    default:
-		      result = new AudioPlayer();
-		      break;
-		    }
-
-		    return (TypeCreator) result;
-		  }
-
+	abstract void play(String audioType, String fileName);
 
 }
