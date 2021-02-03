@@ -1,7 +1,7 @@
 package com.tactfactory.designpatternniveau1.adapter.tp1;
 
 public class MediaAdapter implements MediaPlayer {
-	private String type = "mp3";
+	private String type;
 	private AudioPlayer adaptee3 = new AudioPlayer();
 	private Mp4Player adaptee1 = new Mp4Player();
 	private VlcPlayer adaptee2 = new VlcPlayer();	
